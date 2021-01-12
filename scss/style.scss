@@ -1,0 +1,76 @@
+$text-primary-color: white;
+$bg-primary-color: white;
+
+*{
+    box-sizing: border-box;
+    width: 1920px;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+
+/* Header styles*/
+header{
+    height: 84px;
+}
+
+
+/* Section styles*/
+section{
+    text-align: center;
+    font-weight: 300;
+}
+
+h1{
+    font-size: 40px; 
+    line-height: 52px;
+}
+
+p{
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.container{
+    width: 1240px;
+}
+
+
+.blue-section{
+    background-color: rgb(33, 83, 152);
+   
+    .section-header{
+        color: white;
+    }
+    
+    a{
+        text-decoration: none;
+    } 
+
+    .box-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+
+        .box{
+            background-color: white;
+            width: 33%;
+            height: 228px;
+            margin-top: 178px;
+            margin-bottom: 60px;
+
+        }
+    }
+}
+
+
+
+
+
+
+
+.white-section{
+    background-color: green;
+    height:50px;
+}
