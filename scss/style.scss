@@ -33,35 +33,29 @@ p{
     line-height: 32px;
 }
 
-.container{
-    width: 1240px;
-}
-
-
 .blue-section{
     background-color: rgb(33, 83, 152);
-   
-    .section-header{
-        color: white;
-    }
-    
-    a{
-        text-decoration: none;
-    } 
 
-    .box-wrapper{
-        display: flex;
-        flex-wrap: wrap;
+    .container{
+        width: 1240px;
 
-        .box{
-            background-color: white;
-            width: 33%;
-            height: 228px;
-            margin-top: 178px;
-            margin-bottom: 60px;
-
+        .section-header{
+            color: white;
         }
-    }
+        
+        .flexbox-container{
+            display: flex;
+            justify-content: space-between;
+
+            .box{
+                background-color: white;
+                width: 33%;
+                height: 228px;
+                margin-top: 178px;
+                margin-bottom: 60px;
+            }
+        }
+    }   
 }
 
 

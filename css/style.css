@@ -29,31 +29,28 @@ p {
   line-height: 32px;
 }
 
-.container {
-  width: 1240px;
-}
-
 .blue-section {
   background-color: #215398;
 }
 
-.blue-section .section-header {
+.blue-section .container {
+  width: 1240px;
+}
+
+.blue-section .container .section-header {
   color: white;
 }
 
-.blue-section a {
-  text-decoration: none;
-}
-
-.blue-section .box-wrapper {
+.blue-section .container .flexbox-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.blue-section .box-wrapper .box {
+.blue-section .container .flexbox-container .box {
   background-color: white;
   width: 33%;
   height: 228px;
